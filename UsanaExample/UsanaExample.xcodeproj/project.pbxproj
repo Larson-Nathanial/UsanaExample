@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F70B29DD1C8E125A009109A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F70B29DC1C8E125A009109A4 /* main.m */; };
+		F70B29E01C8E125A009109A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F70B29DF1C8E125A009109A4 /* AppDelegate.m */; };
+		F70B29E81C8E125A009109A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F70B29E71C8E125A009109A4 /* Assets.xcassets */; };
+		F70B29EB1C8E125A009109A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70B29E91C8E125A009109A4 /* LaunchScreen.storyboard */; };
+		F70B29F61C8E125A009109A4 /* UsanaExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F70B29F51C8E125A009109A4 /* UsanaExampleTests.m */; };
+		F70B2A011C8E125A009109A4 /* UsanaExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F70B2A001C8E125A009109A4 /* UsanaExampleUITests.m */; };
+		F70B2A101C8E13AC009109A4 /* RSSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F70B2A0F1C8E13AC009109A4 /* RSSObject.m */; };
+		F70B2A131C8E13B8009109A4 /* RSSParse.m in Sources */ = {isa = PBXBuildFile; fileRef = F70B2A121C8E13B8009109A4 /* RSSParse.m */; };
+		F70B2A161C8E13C5009109A4 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F70B2A151C8E13C5009109A4 /* FeedViewController.m */; };
+		F70B2A191C8E13DA009109A4 /* PersistentStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = F70B2A181C8E13DA009109A4 /* PersistentStorage.m */; };
+		F70B2A1C1C8E241F009109A4 /* WelcomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = F70B2A1B1C8E241F009109A4 /* WelcomeView.m */; };
+		F70B2A241C8E249E009109A4 /* FCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F70B2A231C8E249E009109A4 /* FCell.m */; };
+		F70B2A261C8E24D3009109A4 /* FCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F70B2A251C8E24D3009109A4 /* FCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F70B29F21C8E125A009109A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F70B29D01C8E1259009109A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F70B29D71C8E125A009109A4;
+			remoteInfo = UsanaExample;
+		};
+		F70B29FD1C8E125A009109A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F70B29D01C8E1259009109A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F70B29D71C8E125A009109A4;
+			remoteInfo = UsanaExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F70B29D81C8E125A009109A4 /* UsanaExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsanaExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70B29DC1C8E125A009109A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F70B29DE1C8E125A009109A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F70B29DF1C8E125A009109A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F70B29E71C8E125A009109A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F70B29EA1C8E125A009109A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F70B29EC1C8E125A009109A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F70B29F11C8E125A009109A4 /* UsanaExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsanaExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70B29F51C8E125A009109A4 /* UsanaExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UsanaExampleTests.m; sourceTree = "<group>"; };
+		F70B29F71C8E125A009109A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F70B29FC1C8E125A009109A4 /* UsanaExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsanaExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70B2A001C8E125A009109A4 /* UsanaExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UsanaExampleUITests.m; sourceTree = "<group>"; };
+		F70B2A021C8E125A009109A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F70B2A0E1C8E13AC009109A4 /* RSSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSObject.h; sourceTree = "<group>"; };
+		F70B2A0F1C8E13AC009109A4 /* RSSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSObject.m; sourceTree = "<group>"; };
+		F70B2A111C8E13B8009109A4 /* RSSParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSParse.h; sourceTree = "<group>"; };
+		F70B2A121C8E13B8009109A4 /* RSSParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSParse.m; sourceTree = "<group>"; };
+		F70B2A141C8E13C5009109A4 /* FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		F70B2A151C8E13C5009109A4 /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		F70B2A171C8E13DA009109A4 /* PersistentStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersistentStorage.h; sourceTree = "<group>"; };
+		F70B2A181C8E13DA009109A4 /* PersistentStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistentStorage.m; sourceTree = "<group>"; };
+		F70B2A1A1C8E241F009109A4 /* WelcomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeView.h; sourceTree = "<group>"; };
+		F70B2A1B1C8E241F009109A4 /* WelcomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeView.m; sourceTree = "<group>"; };
+		F70B2A221C8E249E009109A4 /* FCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCell.h; sourceTree = "<group>"; };
+		F70B2A231C8E249E009109A4 /* FCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCell.m; sourceTree = "<group>"; };
+		F70B2A251C8E24D3009109A4 /* FCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F70B29D51C8E125A009109A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70B29EE1C8E125A009109A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70B29F91C8E125A009109A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F70B29CF1C8E1259009109A4 = {
+			isa = PBXGroup;
+			children = (
+				F70B29DA1C8E125A009109A4 /* UsanaExample */,
+				F70B29F41C8E125A009109A4 /* UsanaExampleTests */,
+				F70B29FF1C8E125A009109A4 /* UsanaExampleUITests */,
+				F70B29D91C8E125A009109A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F70B29D91C8E125A009109A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F70B29D81C8E125A009109A4 /* UsanaExample.app */,
+				F70B29F11C8E125A009109A4 /* UsanaExampleTests.xctest */,
+				F70B29FC1C8E125A009109A4 /* UsanaExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F70B29DA1C8E125A009109A4 /* UsanaExample */ = {
+			isa = PBXGroup;
+			children = (
+				F70B29DE1C8E125A009109A4 /* AppDelegate.h */,
+				F70B29DF1C8E125A009109A4 /* AppDelegate.m */,
+				F70B2A201C8E247F009109A4 /* Views */,
+				F70B2A1F1C8E2463009109A4 /* Storage */,
+				F70B2A1E1C8E2453009109A4 /* RSS Parser */,
+				F70B2A1D1C8E244D009109A4 /* Objects */,
+				F70B29E71C8E125A009109A4 /* Assets.xcassets */,
+				F70B29E91C8E125A009109A4 /* LaunchScreen.storyboard */,
+				F70B29EC1C8E125A009109A4 /* Info.plist */,
+				F70B29DB1C8E125A009109A4 /* Supporting Files */,
+			);
+			path = UsanaExample;
+			sourceTree = "<group>";
+		};
+		F70B29DB1C8E125A009109A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F70B29DC1C8E125A009109A4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F70B29F41C8E125A009109A4 /* UsanaExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				F70B29F51C8E125A009109A4 /* UsanaExampleTests.m */,
+				F70B29F71C8E125A009109A4 /* Info.plist */,
+			);
+			path = UsanaExampleTests;
+			sourceTree = "<group>";
+		};
+		F70B29FF1C8E125A009109A4 /* UsanaExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F70B2A001C8E125A009109A4 /* UsanaExampleUITests.m */,
+				F70B2A021C8E125A009109A4 /* Info.plist */,
+			);
+			path = UsanaExampleUITests;
+			sourceTree = "<group>";
+		};
+		F70B2A1D1C8E244D009109A4 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				F70B2A0E1C8E13AC009109A4 /* RSSObject.h */,
+				F70B2A0F1C8E13AC009109A4 /* RSSObject.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		F70B2A1E1C8E2453009109A4 /* RSS Parser */ = {
+			isa = PBXGroup;
+			children = (
+				F70B2A111C8E13B8009109A4 /* RSSParse.h */,
+				F70B2A121C8E13B8009109A4 /* RSSParse.m */,
+			);
+			name = "RSS Parser";
+			sourceTree = "<group>";
+		};
+		F70B2A1F1C8E2463009109A4 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				F70B2A171C8E13DA009109A4 /* PersistentStorage.h */,
+				F70B2A181C8E13DA009109A4 /* PersistentStorage.m */,
+			);
+			name = Storage;
+			sourceTree = "<group>";
+		};
+		F70B2A201C8E247F009109A4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F70B2A1A1C8E241F009109A4 /* WelcomeView.h */,
+				F70B2A1B1C8E241F009109A4 /* WelcomeView.m */,
+				F70B2A141C8E13C5009109A4 /* FeedViewController.h */,
+				F70B2A151C8E13C5009109A4 /* FeedViewController.m */,
+				F70B2A211C8E2494009109A4 /* Feed Cells */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F70B2A211C8E2494009109A4 /* Feed Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F70B2A221C8E249E009109A4 /* FCell.h */,
+				F70B2A231C8E249E009109A4 /* FCell.m */,
+				F70B2A251C8E24D3009109A4 /* FCell.xib */,
+			);
+			name = "Feed Cells";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F70B29D71C8E125A009109A4 /* UsanaExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F70B2A051C8E125A009109A4 /* Build configuration list for PBXNativeTarget "UsanaExample" */;
+			buildPhases = (
+				F70B29D41C8E125A009109A4 /* Sources */,
+				F70B29D51C8E125A009109A4 /* Frameworks */,
+				F70B29D61C8E125A009109A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UsanaExample;
+			productName = UsanaExample;
+			productReference = F70B29D81C8E125A009109A4 /* UsanaExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F70B29F01C8E125A009109A4 /* UsanaExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F70B2A081C8E125A009109A4 /* Build configuration list for PBXNativeTarget "UsanaExampleTests" */;
+			buildPhases = (
+				F70B29ED1C8E125A009109A4 /* Sources */,
+				F70B29EE1C8E125A009109A4 /* Frameworks */,
+				F70B29EF1C8E125A009109A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F70B29F31C8E125A009109A4 /* PBXTargetDependency */,
+			);
+			name = UsanaExampleTests;
+			productName = UsanaExampleTests;
+			productReference = F70B29F11C8E125A009109A4 /* UsanaExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F70B29FB1C8E125A009109A4 /* UsanaExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F70B2A0B1C8E125A009109A4 /* Build configuration list for PBXNativeTarget "UsanaExampleUITests" */;
+			buildPhases = (
+				F70B29F81C8E125A009109A4 /* Sources */,
+				F70B29F91C8E125A009109A4 /* Frameworks */,
+				F70B29FA1C8E125A009109A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F70B29FE1C8E125A009109A4 /* PBXTargetDependency */,
+			);
+			name = UsanaExampleUITests;
+			productName = UsanaExampleUITests;
+			productReference = F70B29FC1C8E125A009109A4 /* UsanaExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F70B29D01C8E1259009109A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = appselevated;
+				TargetAttributes = {
+					F70B29D71C8E125A009109A4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F70B29F01C8E125A009109A4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F70B29D71C8E125A009109A4;
+					};
+					F70B29FB1C8E125A009109A4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F70B29D71C8E125A009109A4;
+					};
+				};
+			};
+			buildConfigurationList = F70B29D31C8E125A009109A4 /* Build configuration list for PBXProject "UsanaExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F70B29CF1C8E1259009109A4;
+			productRefGroup = F70B29D91C8E125A009109A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F70B29D71C8E125A009109A4 /* UsanaExample */,
+				F70B29F01C8E125A009109A4 /* UsanaExampleTests */,
+				F70B29FB1C8E125A009109A4 /* UsanaExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F70B29D61C8E125A009109A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70B2A261C8E24D3009109A4 /* FCell.xib in Resources */,
+				F70B29EB1C8E125A009109A4 /* LaunchScreen.storyboard in Resources */,
+				F70B29E81C8E125A009109A4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70B29EF1C8E125A009109A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70B29FA1C8E125A009109A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F70B29D41C8E125A009109A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70B2A241C8E249E009109A4 /* FCell.m in Sources */,
+				F70B2A191C8E13DA009109A4 /* PersistentStorage.m in Sources */,
+				F70B2A131C8E13B8009109A4 /* RSSParse.m in Sources */,
+				F70B2A161C8E13C5009109A4 /* FeedViewController.m in Sources */,
+				F70B29E01C8E125A009109A4 /* AppDelegate.m in Sources */,
+				F70B2A1C1C8E241F009109A4 /* WelcomeView.m in Sources */,
+				F70B2A101C8E13AC009109A4 /* RSSObject.m in Sources */,
+				F70B29DD1C8E125A009109A4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70B29ED1C8E125A009109A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70B29F61C8E125A009109A4 /* UsanaExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70B29F81C8E125A009109A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70B2A011C8E125A009109A4 /* UsanaExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F70B29F31C8E125A009109A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F70B29D71C8E125A009109A4 /* UsanaExample */;
+			targetProxy = F70B29F21C8E125A009109A4 /* PBXContainerItemProxy */;
+		};
+		F70B29FE1C8E125A009109A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F70B29D71C8E125A009109A4 /* UsanaExample */;
+			targetProxy = F70B29FD1C8E125A009109A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F70B29E91C8E125A009109A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F70B29EA1C8E125A009109A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F70B2A031C8E125A009109A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F70B2A041C8E125A009109A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F70B2A061C8E125A009109A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UsanaExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appselevated.UsanaExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F70B2A071C8E125A009109A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UsanaExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appselevated.UsanaExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F70B2A091C8E125A009109A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UsanaExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appselevated.UsanaExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UsanaExample.app/UsanaExample";
+			};
+			name = Debug;
+		};
+		F70B2A0A1C8E125A009109A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UsanaExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appselevated.UsanaExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UsanaExample.app/UsanaExample";
+			};
+			name = Release;
+		};
+		F70B2A0C1C8E125A009109A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UsanaExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appselevated.UsanaExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UsanaExample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F70B2A0D1C8E125A009109A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UsanaExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appselevated.UsanaExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UsanaExample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F70B29D31C8E125A009109A4 /* Build configuration list for PBXProject "UsanaExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70B2A031C8E125A009109A4 /* Debug */,
+				F70B2A041C8E125A009109A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F70B2A051C8E125A009109A4 /* Build configuration list for PBXNativeTarget "UsanaExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70B2A061C8E125A009109A4 /* Debug */,
+				F70B2A071C8E125A009109A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F70B2A081C8E125A009109A4 /* Build configuration list for PBXNativeTarget "UsanaExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70B2A091C8E125A009109A4 /* Debug */,
+				F70B2A0A1C8E125A009109A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F70B2A0B1C8E125A009109A4 /* Build configuration list for PBXNativeTarget "UsanaExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70B2A0C1C8E125A009109A4 /* Debug */,
+				F70B2A0D1C8E125A009109A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F70B29D01C8E1259009109A4 /* Project object */;
+}
